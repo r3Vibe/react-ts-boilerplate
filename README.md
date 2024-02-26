@@ -32,6 +32,7 @@ In case you do not have yarn just do `npm i -g yarn`
 
 Here is an overview of the project structure:
 
+```
 root/
 ├── public/
 ├── src/
@@ -49,6 +50,7 @@ root/
 ├── vite.config.ts
 └── README.md
 └── ...
+```
 
 ## Usage
 
