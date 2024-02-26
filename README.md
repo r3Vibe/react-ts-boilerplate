@@ -28,7 +28,8 @@ To get started with this project, follow these steps:
 
 In case you do not have yarn just do `npm i -g yarn`
 
-### Project Structure
+<details>
+<summary>Project Structure</summary>
 
 Here is an overview of the project structure:
 
@@ -51,6 +52,8 @@ root/
 └── README.md
 └── ...
 ```
+
+</details>
 
 ## Usage
 
