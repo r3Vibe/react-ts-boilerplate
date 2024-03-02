@@ -1,6 +1,10 @@
 import axios from "axios";
 
-const instance = axios.create({
+/**
+ * @author Arnab Gupta
+ * @description Axios interceptor setup
+ */
+export const instance = axios.create({
   baseURL:
     import.meta.env.VITE_MODE === "dev"
       ? import.meta.env.VITE_DEV_URL

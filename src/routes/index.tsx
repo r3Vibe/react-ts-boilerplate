@@ -3,6 +3,10 @@ import Home from "../pages/Home";
 import RouteHelper from "./RouteHelper";
 import NotFound from "../pages/NotFound";
 
+/**
+ * @author Arnab Gupta
+ * @description Define all the pages of the project here and assign a url to them. Also set up protected routes with role
+ */
 export default function index() {
   return (
     <Routes>

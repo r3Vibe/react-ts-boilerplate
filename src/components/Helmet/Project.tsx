@@ -1,5 +1,9 @@
 import { Helmet } from "react-helmet-async";
 
+/**
+ * @author Arnab Gupta
+ * @description provides seo support for the project add you meta tags here
+ */
 export default function ProjectSEO() {
   return (
     <Helmet>
