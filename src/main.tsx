@@ -1,17 +1,15 @@
+import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-import Providers from "./helpers/Providers.tsx";
+import "./index.css";
+import Providers from "./Providers";
+import Route from "./routes";
 
-// css files
-import "./global.css";
-import 'react-toastify/dist/ReactToastify.css';
+import "./internalization";
 
-/**
- * @author Arnab Gupta
- * @description Main App
- */
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <Providers>
-    <App />
-  </Providers>
+  <React.StrictMode>
+    <Providers>
+      <Route />
+    </Providers>
+  </React.StrictMode>
 );

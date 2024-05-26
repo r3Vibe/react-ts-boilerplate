@@ -1,0 +1,17 @@
+Users
+Posts
+CMS
+  Category
+  About Us
+  Term & Condition
+  Privacy & Security
+  FAQ
+Email
+Inquiry
+
+
+Audit Trail: 
+It shows all the details of each post
+Who has posted 
+When it was posted
+When it was edited

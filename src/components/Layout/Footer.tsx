@@ -1,7 +1,7 @@
-/**
- * @author Arnab Gupta
- * @description Footer of the project layout
- */
 export default function Footer() {
-  return <footer>Footer</footer>;
+  return (
+    <footer className="footer">
+      &copy; 2024 Demo Company. All rights reserved
+    </footer>
+  );
 }

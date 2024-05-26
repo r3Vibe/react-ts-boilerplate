@@ -1,21 +1,17 @@
 import axios from "axios";
 
-/**
- * @author Arnab Gupta
- * @description Axios interceptor setup
- */
-export const instance = axios.create({
+const instance = axios.create({
   baseURL:
-    import.meta.env.VITE_MODE === "dev"
-      ? import.meta.env.VITE_DEV_URL
-      : import.meta.env.VITE_PROD_URL,
-  timeout: 2000,
+    import.meta.env.VITE_ENV === "prod"
+      ? "https://api-mojiai.weavers-web.com/v1"
+      : "http://127.0.0.1:3022/v1",
+  headers: { "Content-Type": "application/json" },
 });
 
 export default {
-  get: instance.get,
-  post: instance.post,
-  patch: instance.patch,
-  put: instance.put,
-  delete: instance.delete,
+  GET: instance.get,
+  POST: instance.post,
+  PUT: instance.put,
+  DELETE: instance.delete,
+  PATCH: instance.patch,
 };
